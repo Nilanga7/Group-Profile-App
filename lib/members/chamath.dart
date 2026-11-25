@@ -5,31 +5,52 @@ import '../widgets/favourite_button.dart';
 
 const chamath = Member(
   id: 'chamath',
-  fullName: 'V P C Rasanga',
+  fullName: 'Chamath Rasanga',
   studentId: '23IT0521',
-  tagline: 'Code. Coffee. Repeat.',
-  address: 'pitabeddara, Sri Lanka',
-  email: 'vpcremail@example.com',
+  tagline: 'Aspiring IoT Engineer | Building Smart Technology',
+  address: 'Matara, Sri Lanka',
+  email: 'vpcrasanga98@gmail.com',
   photo: 'assets/images/chamath.jpg',
   qualifications: [
     Qualification(
       title: 'G.C.E. Ordinary Level',
-      place: 'Your School',
-      year: '2018',
+      place: 'MR/Pitabaddara National School',
+      year: 'Year not specified',
     ),
     Qualification(
-      title: 'G.C.E. Advanced Level (Technology Stream)',
-      place: 'Your School',
-      year: '2021',
+      title: 'G.C.E. Advanced Level (Physical Science)',
+      place: 'MR/Godapitiya Central College',
+      year: '2019–2022',
     ),
     Qualification(
-      title: 'NDT in Information Technology (Reading)',
+      title: 'National Diploma in Technology (NDT) – Information Technology',
       place: 'Institute of Technology, University of Moratuwa',
-      year: '2023 – Present',
+      year: '2023 – Present (Expected 2027)',
+    ),
+    Qualification(
+      title: 'Python for Beginners',
+      place:
+          'Centre for Open & Distance Learning (CODL), University of Moratuwa',
+      year: 'Certification',
     ),
   ],
-  softSkills: ['Problem Solving', 'Teamwork', 'Self-learning', 'Time Management'],
-  talents: ['Chess', 'Gaming', 'Guitar'],
+  softSkills: [
+    'Problem Solving',
+    'Teamwork',
+    'Self-learning',
+    'Time Management',
+    'Project Leadership',
+    'Technical Collaboration',
+  ],
+  talents: [
+    'IoT Engineering',
+    'Embedded Systems',
+    'Robotics',
+    'Sensor Technology',
+    'Data Analytics',
+    'DevOps Engineering',
+    'Cloud Computing',
+  ],
 );
 
 class ChamathScreen extends StatefulWidget {
@@ -113,9 +134,15 @@ class _ChamathScreenState extends State<ChamathScreen> {
                       const SizedBox(height: 6),
                       Text(m.fullName, style: _mono(size: 18, bold: true)),
                       const SizedBox(height: 6),
-                      Text('// ${m.tagline}', style: _mono(color: Colors.white54)),
+                      Text(
+                        '// ${m.tagline}',
+                        style: _mono(color: Colors.white54),
+                      ),
                       const SizedBox(height: 6),
-                      Text('id: ${m.studentId}', style: _mono(color: Colors.white70)),
+                      Text(
+                        'id: ${m.studentId}',
+                        style: _mono(color: Colors.white70),
+                      ),
                     ],
                   ),
                 ),
@@ -163,18 +190,14 @@ class _ChamathScreenState extends State<ChamathScreen> {
             index: 2,
             title: 'soft_skills.txt',
             icon: Icons.psychology,
-            children: [
-              for (final s in m.softSkills) _line('+', s),
-            ],
+            children: [for (final s in m.softSkills) _line('+', s)],
           ),
           if (m.talents.isNotEmpty)
             _section(
               index: 3,
               title: 'talents.sh',
               icon: Icons.star,
-              children: [
-                for (final t in m.talents) _line('>', t),
-              ],
+              children: [for (final t in m.talents) _line('>', t)],
             ),
           const SizedBox(height: 12),
           Text('_ end of file', style: _mono(color: Colors.white38)),
@@ -217,8 +240,14 @@ class _ChamathScreenState extends State<ChamathScreen> {
       child: Text.rich(
         TextSpan(
           children: [
-            TextSpan(text: '$key  ', style: _mono(color: _amber)),
-            TextSpan(text: value, style: _mono(color: Colors.white)),
+            TextSpan(
+              text: '$key  ',
+              style: _mono(color: _amber),
+            ),
+            TextSpan(
+              text: value,
+              style: _mono(color: Colors.white),
+            ),
           ],
         ),
       ),
