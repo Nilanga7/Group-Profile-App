@@ -9,7 +9,7 @@
 
 | Email | Password |
 |-------|----------|
-| `testuser@group8.com` | `group@123` |
+| `testuser@group8.com` | `group8@123` |
 
 ---
 
@@ -91,7 +91,7 @@ lib/
     └── upadya.dart
 assets/images/
 ├── Nilanga.jpeg
-├── 
+├── rashmina.jpg
 ├── 
 ├── 
 ├── 
