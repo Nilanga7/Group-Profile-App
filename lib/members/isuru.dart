@@ -82,11 +82,15 @@ class _IsuruScreenState extends State<IsuruScreen> {
               child: Row(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
-                  Expanded(
-                    flex: 3,
+                  SizedBox(
+                    width: 165,
                     child: ClipRRect(
                       borderRadius: BorderRadius.circular(24),
-                      child: Image.asset(m.photo, fit: BoxFit.cover),
+                      child: Image.asset(
+                        m.photo,
+                        fit: BoxFit.cover,
+                        alignment: const Alignment(0, -0.3),
+                      ),
                     ),
                   ),
                   const SizedBox(width: 12),
