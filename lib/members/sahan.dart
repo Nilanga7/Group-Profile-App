@@ -14,12 +14,12 @@ const sahan = Member(
   qualifications: [
     Qualification(
       title: 'G.C.E. Ordinary Level',
-      place: 'Your School',
+      place: 'H/Vijayaba National School Hungama',
       year: '2018',
     ),
     Qualification(
       title: 'G.C.E. Advanced Level (Technology Stream)',
-      place: 'Your School',
+      place: 'H/Vijayaba National School Hungama',
       year: '2021',
     ),
     Qualification(
