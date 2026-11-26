@@ -1,3 +1,3 @@
 import '../member.dart';
 
-const MemberEntry? imashaEntry = null;
+const MemberEntry? sahanEntry = null;
