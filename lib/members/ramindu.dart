@@ -10,7 +10,7 @@ const ramindu = Member(
   tagline: 'Problem solver · Team player',
   address: '535/3,Gehenuwala,Meegoda, Sri Lanka',
   email: 'charukaramindu10@gmail.com',
-  photo: 'assets/images/ramindu.jpg',
+  photo: 'assets/images/ramindu.jpeg',
   qualifications: [
     Qualification(
       title: 'G.C.E. Ordinary Level',
