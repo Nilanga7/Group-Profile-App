@@ -10,7 +10,7 @@ const isuru = Member(
   tagline: 'Designer at heart, developer by trade',
   address: 'Maho, Sri Lanka',
   email: 'rmisuruchanaka@gmail.com',
-  photo: 'assets/images/isuru.jpg',
+  photo: 'assets/images/isuru.jpeg',
   qualifications: [
     Qualification(
       title: 'G.C.E. Ordinary Level',
