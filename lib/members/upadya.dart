@@ -12,7 +12,7 @@ const upadya = Member(
   tagline: 'Quietly building great things',
   address: 'Your City, Sri Lanka',
   email: 'your.email@example.com',
-  photo: 'assets/images/upadya.jpg',
+  photo: 'assets/images/upadhya.jpeg',
   qualifications: [
     Qualification(
       title: 'G.C.E. Ordinary Level',
