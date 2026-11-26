@@ -10,19 +10,19 @@ const upadhya = Member(
   fullName: 'K T S U Senanayaka',
   studentId: '23IT0532',
   tagline: 'Quietly building great things',
-  address: 'Your City, Sri Lanka',
-  email: 'your.email@example.com',
+  address: 'Walasmulle, Sri Lanka',
+  email: 'upadhyasenanayaka@gmail.com',
   photo: 'assets/images/upadhya.jpeg',
   qualifications: [
     Qualification(
       title: 'G.C.E. Ordinary Level',
-      place: 'Your School',
-      year: '2018',
+      place: 'H/Walasmulle National School',
+      year: '2017',
     ),
     Qualification(
       title: 'G.C.E. Advanced Level (Technology Stream)',
-      place: 'Your School',
-      year: '2021',
+      place: 'H/Walasmulle National School',
+      year: '2020',
     ),
     Qualification(
       title: 'NDT in Information Technology (Reading)',
