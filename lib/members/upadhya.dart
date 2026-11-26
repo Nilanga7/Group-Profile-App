@@ -5,8 +5,8 @@ import 'package:flutter/material.dart';
 import '../member.dart';
 import '../widgets/favourite_button.dart';
 
-const upadya = Member(
-  id: 'upadya',
+const upadhya = Member(
+  id: 'upadhya',
   fullName: 'K T S U Senanayaka',
   studentId: '23IT0532',
   tagline: 'Quietly building great things',
@@ -34,14 +34,14 @@ const upadya = Member(
   talents: ['Music Production', 'Football'],
 );
 
-class UpadyaScreen extends StatefulWidget {
-  const UpadyaScreen({super.key});
+class UpadhyaScreen extends StatefulWidget {
+  const UpadhyaScreen({super.key});
 
   @override
-  State<UpadyaScreen> createState() => _UpadyaScreenState();
+  State<UpadhyaScreen> createState() => _UpadhyaScreenState();
 }
 
-class _UpadyaScreenState extends State<UpadyaScreen> {
+class _UpadhyaScreenState extends State<UpadhyaScreen> {
   static const Color _gold = Color(0xFFFFD54F);
   static const Color _glass = Color(0x33FFFFFF);
   static const Color _glassBorder = Color(0x66FFFFFF);
@@ -50,7 +50,7 @@ class _UpadyaScreenState extends State<UpadyaScreen> {
 
   @override
   Widget build(BuildContext context) {
-    const m = upadya;
+    const m = upadhya;
 
     return Scaffold(
       extendBodyBehindAppBar: true,
@@ -257,9 +257,9 @@ class _UpadyaScreenState extends State<UpadyaScreen> {
   }
 }
 
-const upadyaEntry = MemberEntry(
-  member: upadya,
-  screen: UpadyaScreen(),
+const upadhyaEntry = MemberEntry(
+  member: upadhya,
+  screen: UpadhyaScreen(),
   designName: 'Frosted Glass',
   accent: Color(0xFF37474F),
 );
