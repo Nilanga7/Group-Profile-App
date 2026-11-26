@@ -9,7 +9,7 @@ const ramindu = Member(
   studentId: '23IT0519',
   tagline: 'Problem solver · Team player',
   address: '535/3,Gehenuwala,Meegoda, Sri Lanka',
-  email: 'charukaramindu10@example.com',
+  email: 'charukaramindu10@gmail.com',
   photo: 'assets/images/ramindu.jpg',
   qualifications: [
     Qualification(
