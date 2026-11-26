@@ -25,7 +25,7 @@
 | 6 | R M I C Rathnayake | 23IT0524 | `lib/members/isuru.dart` |
 | 7 | J B A I Samodee | 23IT0527 | `lib/members/imasha.dart` |
 | 8 | J A S Samuditha | 23IT0528 | `lib/members/sahan.dart` |
-| 9 | K T S U Senanayaka | 23IT0532 | `lib/members/upadya.dart` |
+| 9 | K T S U Senanayaka | 23IT0532 | `lib/members/upadhya.dart` |
 
 ---
 
@@ -88,7 +88,7 @@ lib/
     ├── isuru.dart
     ├── imasha.dart
     ├── sahan.dart
-    └── upadya.dart
+    └── upadhya.dart
 assets/images/
 ├── Nilanga.jpeg
 ├── rashmina.jpg
